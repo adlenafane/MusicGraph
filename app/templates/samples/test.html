@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+{{test}}
+{% for element in basic_infos%}
+{{element[0]}}<br>
+{{element[1]}}<br>
+<img src="{{element[2]}}">
+{{element[3]}}<br>
+<hr>
+{% endfor %}
+<hr>
+{% for formation in bac2%}
+{{formation[0]}}<br>
+{{formation[1]}}<br>
+{{formation[2]}}<br>
+{% endfor %}
+<hr>
+{% for formation in bac3%}
+{{formation[0]}}<br>
+{{formation[1]}}<br>
+{{formation[2]}}<br>
+{% endfor %}
+
+{% endblock %}

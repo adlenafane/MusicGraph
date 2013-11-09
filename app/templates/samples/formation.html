@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{formation}}</h2>
+<ul>
+	{% for etablissement in etablissements %}
+		<li><strong>{{etablissement[0]}}</strong></li>
+		<ul>
+			<li>Type : {{etablissement[1]}}</li>
+			<li>Géographie : {{etablissement[7]}} - {{etablissement[8]}} - {{etablissement[9]}}</li>
+			<li>Apprentissage : {{etablissement[11]}}</li>
+			<li><a href="{{etablissement[2]}}">Lien 1</a></li>
+			<li><a href="{{etablissement[10]}}">Lien APB</a></li>
+		</ul>
+	{% endfor %}
+</ul>
+{% endblock %}

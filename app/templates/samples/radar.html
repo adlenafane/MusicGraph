@@ -1,0 +1,37 @@
+<script type="text/javascript">
+	//Get context with jQuery - using jQuery's .get() method.
+	var ctx = $("#radar-chart").get(0).getContext("2d");
+	//This will get the first returned node in the jQuery collection.
+	
+	var data = {
+	labels : ["Réaliste", "Investigateur", "Artiste", "Social", "Entrepreneur", "Conventionnel"],
+	datasets : [
+		{
+			fillColor : "rgba(151,187,205,0.5)",
+			strokeColor : "rgba(151,187,205,1)",
+			pointColor : "rgba(151,187,205,1)",
+			pointStrokeColor : "#fff",
+			data : {{user.riasec}}
+		}
+		{% if current_job.riasec %},
+		{
+			fillColor : "rgba(220,220,220,0.5)",
+			strokeColor : "rgba(220,220,220,1)",
+			pointColor : "rgba(220,220,220,1)",
+			pointStrokeColor : "#fff",
+			data : {{current_job.riasec}}
+		}
+		{% endif %}
+	]
+	}
+
+	options = {
+		//Boolean - Whether to show labels on the scale	
+		scaleShowLabels : true,
+		//Number - Point label font size in pixels	
+		pointLabelFontSize : 16,
+	}
+
+	new Chart(ctx).Radar(data, options);
+
+</script>

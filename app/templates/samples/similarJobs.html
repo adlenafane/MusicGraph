@@ -1,0 +1,45 @@
+<div id="sliderContent" class="ui-corner-all">	
+  <h2>Métiers similaires</h2>
+    <div class="viewer ui-corner-all">
+      <div class="content-conveyor ui-helper-clearfix">
+        
+        {% for job in similar_jobs %}
+        <div class="item">
+          <h2><a href="/job/{{job.label_en}}">{{job.label_en}}</a></h2>
+          <a href="/job/{{job.label_en}}"><img src="{{job.image_link}}" alt="{{job.label_en}}"></a>
+          <dl class="details ui-helper-clearfix">
+            {% if current_job %}
+            <dt>Similarité:</dt><dd>{{job.get_similarity(current_job.job_code)}}%</dd>
+            {% else %}
+            <dt>Similarité:</dt><dd>{{job.get_user_similarity(user.profile)}}%</dd>
+            {% endif %}
+          </dl>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  <div id="slider"></div>
+  <script type="text/javascript">
+  $(function() {
+        
+    //vars
+    var conveyor = $(".content-conveyor", $("#sliderContent")),
+    item = $(".item", $("#sliderContent"));
+    
+    //set length of conveyor
+    conveyor.css("width", item.length * parseInt(item.css("width")));
+        
+    //config
+    var sliderOpts = {
+      max: (item.length * parseInt(item.css("width"))) - parseInt($(".viewer", $("#sliderContent")).css("width")),
+      slide: function(e, ui) { 
+        conveyor.css("left", "-" + ui.value + "px");
+      }
+    };
+
+    //create slider
+    $("#slider").slider(sliderOpts);
+  });
+  </script>
+</div>

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="row page-center">
+        <div class="span12">
+            <h1>Find your song</h1>
+            <form action="/" method="get">
+                <div class="row">
+                    <div class="span6">
+                        <label><strong>Which song would you start with?</strong></label>
+                        <input type="search" id='songStart' name="songStart" {% if song_start_query != '' %} value={{song_start_query}} {% else %} placeholder='Track name?' {% endif %}>
+                        <input type="search" id='artistStart' name="artistStart" {% if artist_start_query != '' %} value={{artist_start_query}} {% else %} placeholder='Artist?' {% endif %}>
+                    </div>
+                    <div class="span6">
+                        <label><strong>Which song would you end with?</strong></label>
+                        <input type="search" id='songEnd' name='songEnd' {% if song_end_query != '' %} value={{song_end_query}} {% else %} placeholder='Track name?' {% endif %}>
+                        <input type="search" id='artistEnd' name="artistEnd" {% if artist_end_query != '' %} value={{artist_end_query}} {% else %} placeholder='Artist?' {% endif %}>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Find!</button>
+                </div>
+            </form>
+            <div class="row">
+                <div class="span6">
+                    Artist name: {{song_start_result.response.songs[0].artist_name}}<br>
+                    Title: {{song_start_result.response.songs[0].title}}<br>
+                    Echonest ID: {{song_start_result.response.songs[0].tracks[0].id}}<br>
+                    Spotify ID: {{song_start_result.response.songs[0].tracks[0].foreign_id}}<br>
+                    <br>
+                    <br>
+                    {{similar_songs}}
+                    <!-- {{song_start_result}} -->
+                </div>
+                <div class="span6">
+                    <br>
+                    Artist name: {{song_end_result.response.songs[0].artist_name}}<br>
+                    Title: {{song_end_result.response.songs[0].title}}<br>
+                    Echonest ID: {{song_end_result.response.songs[0].tracks[0].id}}<br>
+                    Spotify ID: {{song_end_result.response.songs[0].tracks[0].foreign_id}}<br>
+                    <br>
+                    <br>
+                    <!-- {{song_end_result}} -->
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

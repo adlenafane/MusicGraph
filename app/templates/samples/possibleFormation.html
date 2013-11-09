@@ -1,0 +1,14 @@
+<div class="page-center">
+	<h2>Formation(s) possible(s)</h2>
+	{% if formations == 'N/A' %}
+	<ul>
+		<li>N/A</li>
+	</ul>
+	{% else %}
+	<ul>
+		{% for formation in formations%}
+		<li style="text-align: left;">{% if formation[1]%}<a href="/formation/{{formation[1]}}">{{formation[0]}}</a>{% else %}{{formation[0]}}{% endif %} - <a href="{{formation[2]}}">Lien Onisep</a></li>
+		{% endfor %}
+	</ul>
+	{% endif%}
+</div>

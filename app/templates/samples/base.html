@@ -1,0 +1,36 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}} - Orientation scolaire</title>
+    {% else %}
+    <title>Orientation scolaire</title>
+    {% endif %}
+    <link href="/static/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="/static/jquery/jquery-1.9.1.min.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <!-- For the radar charts -->
+    <script src="/static/chartjs/Chart.js"></script>
+    <!-- For the carousel -->
+    <link rel="stylesheet" type="text/css" href="/static/jqueryui/css/ui-lightness/jquery-ui-1.10.2.custom.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/slider.css">
+    <script type="text/javascript" src="/static/jqueryui/js/jquery-ui-1.10.2.custom.min.js"></script>
+    <meta charset="UTF-16">
+  </head>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <a class="brand" href="/">{% if title %} <strong>{{title}}</strong> {% else %}Orientation Scolaire{% endif %}</a>
+        <ul class="nav">
+          <li {% if title=='Orientation Scolaire' %}class="active"{% endif %}><a href="/">Home</a></li>
+          <li {% if title=='My account' %}class="active"{% endif %}><a href="/account">My Account</a></li>
+          <li {% if title!='My account' and title!='Orientation Scolaire' %}class="active"{% endif %}><a href="/">Job Search</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+    {% block content %}
+    {% endblock %}
+    </div>
+  </body>
+</html>

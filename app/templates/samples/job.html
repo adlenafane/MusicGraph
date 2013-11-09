@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% block content %}
+	{% if is_job_fr_en %}
+	<div class="page-center">
+		<h2>{{current_job.label_en}} {% if job_fr_en[2] %}- {{job_fr_en_job_name}}{% endif %}</h2>
+	</div>
+	<div class="page-center">
+		<div class="sidebar left">
+		    <div class="">
+		      <img src='{{job_fr_en_image_link}}' class='job-avatar'>
+		    </div>
+		</div>
+		<div class='job-description'>
+			<p><strong>Description:</strong> {{job_fr_en_description}}</p>
+			<p><strong>Niveau requis:</strong> {{job_fr_en_job_niveau}}</p>
+			<p><strong>Salaire:</strong> {{job_fr_en_job_salaire}}</p>
+		</div>
+		<div class="sidebar right">
+		    <div class="">
+		    	<span><strong>Matching:</strong></span> <br>
+		      	<div class="job-score">
+					<span class="job-matching-score">{{current_job.get_user_similarity(user.profile)}}%</span>
+				</div>
+		    </div>
+		</div>
+	</div>
+	{% else %}
+	<div class="page-center">
+		<h2>{{current_job.label_en}} {% if current_job.label_fr %}- {{current_job.label_fr}}{% endif %}</h2>
+	</div>
+	<div class="page-center">
+		<div class="sidebar left">
+		    <div class="">
+		      <img src='{{current_job.image_link}}' class='job-avatar'>
+		    </div>
+		</div>
+		<div class='job-description'>
+			<p><strong>Description:</strong> {{current_job.description}}</p>
+			<p><strong>Salary:</strong> {{current_job.salary}}</p>
+			<p><strong>Secteur:</strong> {{current_job.secteur}}</p>
+		</div>
+		<div class="sidebar right">
+		    <div class="">
+		    	<span><strong>Matching:</strong></span> <br>
+		      	<div class="job-score">
+					<span class="job-matching-score">{{current_job.get_user_similarity(user.profile)}}%</span>
+				</div>
+		    </div>
+		</div>
+	</div>
+	{% endif%}
+	<hr>
+	{% include 'similarities.html' %}
+	<!-- <hr>
+	<div class="page-center experience">
+		<span>Experience required:</span>
+		<div class="progress experience-bar job-experience">
+			<div class="bar" style="width: {{current_job.experience}}%;"></div>
+		</div>
+	</div> -->
+	<hr>
+	<div class='page-center'>
+		<h2>RIASEC Comparison</h2>
+		<legend>
+			<span class="user-radar"><strong>User</strong></span>
+			<span><strong> - </strong></span>
+			<span class="job-radar"><strong>Job</strong></span>
+		</legend>
+		<canvas id="radar-chart" width="600" height="600" class="radar-chart"></canvas>
+	</div>
+	<hr>
+		{% include 'possibleFormation.html' %}
+	<hr>
+	<div class="page-center">
+	{% include 'similarJobs.html' %}
+	</div>
+
+	<hr>
+	{{current_job.job_code}}
+	<div style="margin: 10em"></div>
+	<!-- 
+	<hr>
+	
+	
+	<hr>
+	
+	<div class="page-center">
+		<p>{{information}}</p>
+	</div> -->
+
+	<!-- {{current_job.data}}<br>
+	<br>
+	{{user.profile}} -->
+
+	{% include 'radar.html' %}
+
+{% endblock %}
+<!-- <div class='page-data-container'>
+	<img src='/static/img/{{image_link}}' class='job-avatar'>
+	<div class='job-description'>
+		<p><strong>Description:</strong> {{description}}</p>
+		<p><strong>Salary:</strong> {{salary}}</p>
+		<p><strong>Secteur:</strong> {{secteur}}</p>
+	</div>
+	<div class="job-score">
+		<strong>Matching:</strong> <br>
+		<span class="job-matching-score">78%</span>
+	</div>
+</div>
+<div class="page-center">
+	<span>Experience required:</span>
+	<div class="progress progress-success" class="job-experience">
+		<div class="bar" style="width: {{experience}}%;"></div>
+	</div>
+</div>
+<hr/> -->

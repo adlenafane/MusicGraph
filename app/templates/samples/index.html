@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class="page-center">
+		<h1>Recherche de métier</h1>
+		<div class="">
+			<label><strong>Quel métier cherchez-vous?</strong></label>
+			<div class="input-append">
+				<input type="search" data-provide="typeahead" id='jobSearchField'>
+				<a href='/job' id='button-search'>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</a>
+		</div>
+	</div>
+	<script>
+		$(function() {
+    		$("").tooltip();
+		});
+
+		$(document).ready(function($) {
+			$('#jobSearchField').typeahead({
+				source: function(query, process) {
+					jobArray = new Array();
+					{% for job in jobs %}
+						jobArray.push('{{ job[0] }}');
+					{% endfor %}
+	                return jobArray;	
+				},
+				items: 10
+			});
+		})
+
+		/*Change the href depending on the input value*/
+		$('input[id="jobSearchField"]').change(function(){
+			var button_search = document.getElementById('button-search');
+			button_search.setAttribute('href', '/job/'+$('input[id="jobSearchField"]').val());
+		});
+
+		/*Handle the enter button press*/
+		$('input[type=search]').on('keyup', function(e) {
+			if (e.which == 13) {
+				e.preventDefault();
+				window.location.href = '/job/'+$('input[id="jobSearchField"]').val();
+			}
+		});
+	</script>
+{% endblock %}

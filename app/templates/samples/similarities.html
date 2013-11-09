@@ -1,0 +1,85 @@
+<div class="page-center experience">
+	<h3><strong>Intérêt :</strong> {{current_job.get_user_similarity_interests(user.profile)}}%</h3>
+	{% if current_job.get_user_similarity_interests(user.profile) >= 75 %}
+	<div class="progress experience-bar job-experience progress-success">
+	{% elif current_job.get_user_similarity_interests(user.profile) >= 65 %}
+	<div class="progress experience-bar job-experience">
+	{% elif current_job.get_user_similarity_interests(user.profile) >= 50 %}
+	<div class="progress experience-bar job-experience progress-warning">
+	{% else %}
+	<div class="progress experience-bar job-experience progress-danger">
+	{% endif %}
+		<div class="bar" style="width: {{current_job.get_user_similarity_interests(user.profile)}}%;"></div>
+	</div>
+	{{current_job.closest_interests}}
+
+	<h3><strong>Compétences :</strong> {{current_job.get_user_similarity_skills(user.profile)}}%</h3>
+	{% if current_job.get_user_similarity_skills(user.profile) >= 75 %}
+	<div class="progress experience-bar job-experience progress-success">
+	{% elif current_job.get_user_similarity_skills(user.profile) >= 65 %}
+	<div class="progress experience-bar job-experience">
+	{% elif current_job.get_user_similarity_skills(user.profile) >= 50 %}
+	<div class="progress experience-bar job-experience progress-warning">
+	{% else %}
+	<div class="progress experience-bar job-experience progress-danger">
+	{% endif %}
+		<div class="bar" style="width: {{current_job.get_user_similarity_skills(user.profile)}}%;"></div>
+	</div>
+	{{current_job.closest_skills}}
+
+	<h3><strong>Connaissances :</strong> {{current_job.get_user_similarity_knowledge(user.profile)}}%</h3>
+	{% if current_job.get_user_similarity_knowledge(user.profile) >= 75 %}
+	<div class="progress experience-bar job-experience progress-success">
+	{% elif current_job.get_user_similarity_knowledge(user.profile) >= 65 %}
+	<div class="progress experience-bar job-experience">
+	{% elif current_job.get_user_similarity_knowledge(user.profile) >= 50 %}
+	<div class="progress experience-bar job-experience progress-warning">
+	{% else %}
+	<div class="progress experience-bar job-experience progress-danger">
+	{% endif %}
+		<div class="bar" style="width: {{current_job.get_user_similarity_knowledge(user.profile)}}%;"></div>
+	</div>
+	{{current_job.closest_knowledge}}
+
+	<h3><strong>Activités :</strong> {{current_job.get_user_similarity_activity(user.profile)}}%</h3>
+	{% if current_job.get_user_similarity_activity(user.profile) >= 75 %}
+	<div class="progress experience-bar job-experience progress-success">
+	{% elif current_job.get_user_similarity_activity(user.profile) >= 65 %}
+	<div class="progress experience-bar job-experience">
+	{% elif current_job.get_user_similarity_activity(user.profile) >= 50 %}
+	<div class="progress experience-bar job-experience progress-warning">
+	{% else %}
+	<div class="progress experience-bar job-experience progress-danger">
+	{% endif %}
+		<div class="bar" style="width: {{current_job.get_user_similarity_activity(user.profile)}}%;"></div>
+	</div>
+	{{current_job.closest_activity}}
+
+	<h3><strong>Personalité :</strong> {{current_job.get_user_similarity_personality(user.profile)}}%</h3>
+	{% if current_job.get_user_similarity_personality(user.profile) >= 75 %}
+	<div class="progress experience-bar job-experience progress-success">
+	{% elif current_job.get_user_similarity_personality(user.profile) >= 65 %}
+	<div class="progress experience-bar job-experience">
+	{% elif current_job.get_user_similarity_personality(user.profile) >= 50 %}
+	<div class="progress experience-bar job-experience progress-warning">
+	{% else %}
+	<div class="progress experience-bar job-experience progress-danger">
+	{% endif %}
+		<div class="bar" style="width: {{current_job.get_user_similarity_personality(user.profile)}}%;"></div>
+	</div>
+	{{current_job.closest_personality}}
+
+	<h3><strong>Valeurs :</strong> {{current_job.get_user_similarity_value(user.profile)}}%</h3>
+	{% if current_job.get_user_similarity_value(user.profile) >= 75 %}
+	<div class="progress experience-bar job-experience progress-success">
+	{% elif current_job.get_user_similarity_value(user.profile) >= 65 %}
+	<div class="progress experience-bar job-experience">
+	{% elif current_job.get_user_similarity_value(user.profile) >= 50 %}
+	<div class="progress experience-bar job-experience progress-warning">
+	{% else %}
+	<div class="progress experience-bar job-experience progress-danger">
+	{% endif %}
+		<div class="bar" style="width: {{current_job.get_user_similarity_value(user.profile)}}%;"></div>
+	</div>
+	{{current_job.closest_value}}
+</div>

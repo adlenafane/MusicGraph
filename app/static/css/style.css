@@ -1,0 +1,96 @@
+.container {
+	margin-top: 60px;
+}
+.page-center {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.page-data-container {
+	/* text-align: left; */
+	/* width: 50%; */
+	display: inline-block;
+}
+
+.job-avatar {
+	float: left;
+	border-style: solid;
+	border-width: 2px;
+	width: 225px;
+	height: 225px;
+}
+
+.job-description {
+	float: left;
+	text-align: left;
+	vertical-align: middle;
+	margin: 2em;
+	width: 48%;
+	text-align: justify;
+}
+
+.job-score {
+	float: left;
+	text-align: right;
+	vertical-align: middle;
+	margin: 2em;
+}
+
+.job-matching-score {
+	font-size: 500%;
+}
+
+.job-experience {
+	/* width: 50%; */
+	text-align:center; 
+	margin:auto;
+}
+.job-radar {
+	color: rgba(220,220,220,1);
+}
+
+.user-radar {
+	color: rgba(151,187,205,1);
+}
+
+.radar-chart {
+	margin: -80px;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    margin-bottom: 1em;
+    margin-top: 2.5em;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
+
+.container-fluid > .sidebar {
+    position: relative;
+    top: 0;
+    left:auto;
+    width: 220px; /* width of sidebar */
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+    margin-top: 3em;
+}
+
+.container-fluid > .content {
+    margin: 0 240px; /* width of sidebars + 10px of margin */
+}
+
+.experience {
+	width: 60%;
+	margin-left: 20%;
+}
+
+.experience-bar {
+	border: 1px solid #DDDDDD;
+}

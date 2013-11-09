@@ -1,0 +1,1716 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Dee",
+				"DeezerArtist	(global, class)"
+			],
+			[
+				"album",
+				"album_deezer_id	(local, instance)"
+			],
+			[
+				"arti",
+				"artist_deezer_id	(local, instance)"
+			],
+			[
+				"art",
+				"artist"
+			],
+			[
+				"trac",
+				"track"
+			],
+			[
+				"dee",
+				"deezer_id	(local, instance)"
+			],
+			[
+				"song_",
+				"song_id_2	(local, instance)"
+			],
+			[
+				"track",
+				"track_id"
+			],
+			[
+				"song",
+				"song_id_2	(local, instance)"
+			],
+			[
+				"song_id",
+				"song_id_2	(local, instance)"
+			],
+			[
+				"song_i",
+				"song_id_1	(local, instance)"
+			],
+			[
+				"new",
+				"new_score	(local, instance)"
+			],
+			[
+				"old",
+				"old_score	(local, instance)"
+			],
+			[
+				"tra",
+				"track_a_node	(local, instance)"
+			],
+			[
+				"plai",
+				"playlist_id	(local, instance)"
+			],
+			[
+				"pla",
+				"playlist_node	(local, instance)"
+			],
+			[
+				"pl",
+				"playlist_id	(local, instance)"
+			],
+			[
+				"play",
+				"playlist_node"
+			],
+			[
+				"DB",
+				"GRAPH_DB"
+			],
+			[
+				"get",
+				"get_or_create_index"
+			],
+			[
+				"gra",
+				"GRAPH_DB"
+			],
+			[
+				"pr",
+				"print	(builtin, function)"
+			],
+			[
+				"curre",
+				"current_song	(local, instance)"
+			],
+			[
+				"curr",
+				"current_node	(local, instance)"
+			],
+			[
+				"son",
+				"song_id"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"sim",
+				"similar_songs	(local, instance)"
+			],
+			[
+				"si",
+				"similar_songs	(local, instance)"
+			],
+			[
+				"simi",
+				"similar"
+			],
+			[
+				"cre",
+				"create"
+			],
+			[
+				"G",
+				"GRAPH_DB	(global, instance)"
+			],
+			[
+				"tes",
+				"test_json	(local, instance)"
+			],
+			[
+				"artis",
+				"artist_name"
+			],
+			[
+				"song_star",
+				"song_start_result_json	(local, instance)"
+			],
+			[
+				"ret",
+				"render_template	(imported, instance)"
+			],
+			[
+				"cure",
+				"current_node	(local, instance)"
+			],
+			[
+				"song_start",
+				"song_start_echonest_id	(local, instance)"
+			],
+			[
+				"song_s",
+				"song_start_echonest_id	(local, instance)"
+			],
+			[
+				"artist",
+				"artist_start	(local, instance)"
+			],
+			[
+				"ar",
+				"artist_start	(local, instance)"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"prot",
+				"protocol"
+			],
+			[
+				"Chr",
+				"ChromeExtension"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"L",
+				"LoginActivityLoginButton"
+			],
+			[
+				"by",
+				"byId"
+			],
+			[
+				"fak",
+				"fakeButton"
+			],
+			[
+				"do",
+				"dojo"
+			],
+			[
+				"se",
+				"set"
+			],
+			[
+				"s",
+				"set"
+			],
+			[
+				"_onA",
+				"_onAvatarButtonHandle"
+			],
+			[
+				"la",
+				"lang"
+			],
+			[
+				"line",
+				"line_json	(global, instance)"
+			],
+			[
+				"lin",
+				"line_json	(global, instance)"
+			],
+			[
+				"_on",
+				"_onKeyPress"
+			],
+			[
+				"logi",
+				"loginForm"
+			],
+			[
+				"di",
+				"dijit"
+			],
+			[
+				"ci",
+				"current_notification"
+			],
+			[
+				"noti",
+				"notification"
+			],
+			[
+				"no",
+				"notification"
+			],
+			[
+				"sho",
+				"show"
+			],
+			[
+				"shou",
+				"shouldNotify"
+			],
+			[
+				"on",
+				"_onDisplayRosterNotification"
+			],
+			[
+				"req",
+				"requestPermissionNotification"
+			],
+			[
+				"re",
+				"requestPermissionNotification"
+			],
+			[
+				"No",
+				"NotificationActivity"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ava",
+				"avatar_display"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"RosterActi",
+				"RosterActivityMessage"
+			],
+			[
+				"al",
+				"algo"
+			],
+			[
+				"date",
+				"datetimestamp"
+			],
+			[
+				"da",
+				"datetimestamp"
+			],
+			[
+				"cur",
+				"curr_min"
+			],
+			[
+				"cu",
+				"curr_hour"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"_onChat",
+				"_onChatServiceNewMessageDate"
+			],
+			[
+				"RosterActivityMessage",
+				"RosterActivityMessageContainer"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"ch",
+				"chosenArm"
+			],
+			[
+				"cho",
+				"choices"
+			],
+			[
+				"nu",
+				"num_sims"
+			],
+			[
+				"dr",
+				"draw_response"
+			],
+			[
+				"a",
+				"arms"
+			],
+			[
+				"arm",
+				"arms_history"
+			],
+			[
+				"E",
+				"EpsilonGreedyRefine"
+			],
+			[
+				"de",
+				"den"
+			],
+			[
+				"prin",
+				"printKnowledge"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"rew",
+				"reward"
+			],
+			[
+				"dis",
+				"distances"
+			],
+			[
+				"cen",
+				"centersList"
+			],
+			[
+				"cent",
+				"centersAffectation"
+			],
+			[
+				"gz",
+				"gzip"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"R",
+				"RosterActivityMessage"
+			],
+			[
+				"aff",
+				"affectations"
+			],
+			[
+				"displ",
+				"displayImage"
+			],
+			[
+				"ite",
+				"iteration"
+			],
+			[
+				"comp",
+				"computeKMean"
+			],
+			[
+				"K",
+				"K"
+			],
+			[
+				"nouve",
+				"nouveaux_centres"
+			],
+			[
+				"nou",
+				"nouveau_centre"
+			],
+			[
+				"nom",
+				"nombre_element"
+			],
+			[
+				"centre",
+				"centre_index"
+			],
+			[
+				"affe",
+				"affectation"
+			],
+			[
+				"comute",
+				"computeTrainingError"
+			],
+			[
+				"epoq",
+				"epoques"
+			],
+			[
+				"epo",
+				"epoque"
+			],
+			[
+				"tai",
+				"taille"
+			],
+			[
+				"test",
+				"testSet"
+			],
+			[
+				"open",
+				"open_h5_file_read"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"sto",
+				"storefn"
+			],
+			[
+				"Nam",
+				"NamespaceManager"
+			],
+			[
+				"str",
+				"storeuri"
+			],
+			[
+				"fil",
+				"file"
+			],
+			[
+				"sa",
+				"saveFile"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"Ros",
+				"RosterActivityAvatar"
+			],
+			[
+				"twin",
+				"twinlifeService"
+			],
+			[
+				"lis",
+				"liste_niveau2_pickle_2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views.py",
+			"settings":
+			{
+				"buffer_size": 5157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "deezer_crawl.py",
+			"settings":
+			{
+				"buffer_size": 3700,
+				"line_ending": "Windows",
+				"name": "'''"
+			}
+		},
+		{
+			"file": "utility.py",
+			"settings":
+			{
+				"buffer_size": 4437,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 2560,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Adlen/Documents/GitHub/ECP_IA/utility.py",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/templates/test.html",
+		"/C/Users/Adlen/Documents/GitHub/ML/Code/app/templates/index.html",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/templates/base.html",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/templates/batch.html",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/WebInterface/app/views.py",
+		"/C/Users/Adlen/Documents/GitHub/Datackaton/web/main.py",
+		"/C/Users/Adlen/Documents/GitHub/ML/Code/app/views.py",
+		"/C/Users/Adlen/Downloads/pyechonest-7.1.1/README.md",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/views_sample.py",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/templates/samples/index.html",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/templates/samples/base.html",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/views.py",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/app/__init__.py",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/.gitignore",
+		"/C/Users/Adlen/Documents/GitHub/MusicGraph/neo4j-community-1.8.2/bin/base.bat",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/.gitignore",
+		"/C/Users/Adlen/Documents/GitHub/ECP_IA/.gitignore",
+		"/C/Users/Adlen/Downloads/neo4j-community-1.8.2/bin/Neo4j.bat",
+		"/C/Users/Adlen/Downloads/neo4j-community-1.8.2/bin/README.txt",
+		"/C/Users/Adlen/Desktop/oauth.js",
+		"/C/Users/Adlen/Desktop/twinsee extension/twinsee/twinsee.js",
+		"/C/Users/Adlen/Desktop/twinsee extension/twinsee/nls/messages.js",
+		"/C/Users/Adlen/Desktop/twinsee extension/dojox/app/main.js",
+		"/C/Users/Adlen/Desktop/twinsee extension/twinsee/run.js",
+		"/C/Users/Adlen/Desktop/twinsee extension/config.js",
+		"/C/Users/Adlen/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Adlen/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/views/RosterActivity.js",
+		"/C/Users/Adlen/Desktop/background_gmail.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/desktop/templates/RosterActivity.html",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/resources/twinsee.css",
+		"/C/Users/Adlen/Desktop/twinsee extension/dojo/dojo.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/desktop/templates/EditAccountActivity.html",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinlife/twinlifeService.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/views/EditAccountActivity.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/desktop/templates/LoginActivity.html",
+		"/C/Users/Adlen/Documents/GitHub/ECP_IA/ai.py",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/Crawl/crawlOnp.py",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/dist/dojox/xmpp/VCardService.js.uncompressed.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/dist/dojox/xmpp/RosterService.js.uncompressed.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/nls/fr/messages.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/nls/messages.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/dojox/form/Uploader.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/desktop/config.json",
+		"/C/Users/Adlen/Downloads/ECP_IA/utility.py",
+		"/C/Users/Adlen/Downloads/ECP_IA/ai.py",
+		"/C/Users/Adlen/Downloads/ECP_IA/config.py",
+		"/C/Users/Adlen/Downloads/ECP_IA/conductor.py",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/UploadFile.php",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/views/EditBuddyActivity.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/desktop/templates/EditBuddyActivity.html",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/dojox/xmpp/VCardService.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/desktop/TwinseeApplication.html",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/dist/dojox/xmpp/RosterService.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/TwinseeApplication.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/views/LoginActivity.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/twinsee.js",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/WebInterface/app/__init__.py",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/Ontology/manageOntology/src/manageOntology/ManageOntology.java",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/test_json.py",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/bdd_test.txt",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/Ontology/data/bdd_test.txt",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/Jena/ontology.owl",
+		"/C/Users/Adlen/Documents/GitHub/ML/Code/run.py",
+		"/C/Users/Adlen/Downloads/noname",
+		"/C/Users/Adlen/Documents/GitHub/polyCrypto/Cours.tex",
+		"/C/Users/Adlen/Documents/GitHub/ML/.gitignore",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/views/NotificationActivity.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinsee/views/AddBuddyActivity.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/twinlife/twinlife.profile.js",
+		"/C/Users/Adlen/Downloads/notification.html.txt",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/dojox/xmpp/JingleService.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/dojox/xmpp/WebSocketTransportSession.js",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/index.html",
+		"/C/Users/Adlen/Downloads/twinsee/twinsee/src/dojox/xmpp/ChatService.js",
+		"/C/Users/Adlen/Downloads/twinsee/ChatFragment.java",
+		"/C/Users/Adlen/Documents/GitHub/ECP_IA/config.py",
+		"/C/Users/Adlen/Dropbox/3A/Cours/APA/TP4/main.py",
+		"/C/Users/Adlen/Dropbox/3A/Cours/APA/TP5/main.py",
+		"/C/Users/Adlen/Documents/GitHub/ECP_IA/starterkit-python-board-dico.py",
+		"/C/Users/Adlen/Documents/GitHub/ECP_IA/starterkit-python-random-walk.py",
+		"/C/Users/Adlen/Dropbox/3A/Cours/APA/TP3/main.py",
+		"/C/Users/Adlen/Desktop/a ranger",
+		"/C/Users/Adlen/Desktop/option",
+		"/C/Users/Adlen/Desktop/Cours.tex",
+		"/C/Users/Adlen/Dropbox/3A/Cours/APA/TP3/tpNonSupervise.py",
+		"/C/Users/Adlen/Downloads/tpNonSupervise.py",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/data/academie_clean.txt",
+		"/C/Users/Adlen/Downloads/bdd1.txt",
+		"/C/Users/Adlen/ontologies/www.Ontology1357592663009/bdd_test.txt",
+		"/C/Users/Adlen/Desktop/polyCrypto/Cours.tex",
+		"/C/Users/Adlen/Downloads/bdd1 (2).txt",
+		"/C/Users/Adlen/Downloads/bdd1.json",
+		"/C/Users/Adlen/ontologies/www.Ontology1357592663009/altered.owl",
+		"/C/Users/Adlen/ontologies/www.Ontology1357592663009/www.Ontology1357592663009.owl",
+		"/C/Users/Adlen/Documents/GitHub/ML/main.py",
+		"/C/Users/Adlen/Documents/GitHub/ML/hdf5_getters.py",
+		"/C/Users/Adlen/Documents/GitHub/ML/display_song.py",
+		"/C/Users/Adlen/Documents/GitHub/ML/song.txt",
+		"/C/Users/Adlen/Documents/GitHub/polyCrypto/.gitignore",
+		"/C/Users/Adlen/Documents/GitHub/ML/PythonSrc/display_song.py",
+		"/C/Users/Adlen/Desktop/APB/0_non fait",
+		"/C/Users/Adlen/Dropbox/Principes/ideas.txt",
+		"/C/Users/Adlen/Desktop/datackathhon à ranger.html",
+		"/C/Users/Adlen/Desktop/APB/41_338_1.htm",
+		"/C/Users/Adlen/pip/pip.log",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/ontology.owl",
+		"/C/Users/Adlen/Desktop/script/scriptSelenium.py",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/examples/film.py",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/ontology/ontology.owl",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/script.py",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/academie.txt",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/academie_clean.txt",
+		"/C/Users/Adlen/Documents/GitHub/ontologieOrientation/text.owl",
+		"/C/Users/Adlen/Downloads/MSongsDB-master/Tasks_Demos/ArtistRecognition/process_test_set.py",
+		"/C/Users/Adlen/Downloads/MSongsDB-master/Tasks_Demos/ArtistRecognition/process_train_set.py",
+		"/C/Users/Adlen/Downloads/MSongsDB-master/Tasks_Demos/ArtistRecognition/split_train_test.py",
+		"/C/Users/Adlen/Downloads/MSongsDB-master/Tasks_Demos/ArtistRecognition/split_train_test_unbalanced.py",
+		"/C/Users/Adlen/Documents/GitHub/Datackaton/web/templates/layout.html",
+		"/C/Users/Adlen/Desktop/meteormail/meteormail.html",
+		"/C/Users/Adlen/Desktop/meteormail/meteormail.js",
+		"/C/Users/Adlen/Downloads/microblog-0.2/app/forms.py",
+		"/C/Users/Adlen/Documents/GitHub/WebDev/flaskApp/app/templates/login.html",
+		"/C/Users/Adlen/Downloads/microblog-0.3/config.py",
+		"/C/Users/Adlen/Downloads/microblog-0.3/app/views.py",
+		"/C/Users/Adlen/Documents/GitHub/WebDev/flaskApp/app/views.py",
+		"/C/Users/Adlen/Downloads/microblog-0.2/app/views.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\Adlen\\Desktop\\twinsee extension",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Song",
+			"deezer_id",
+			"trakc",
+			"Song",
+			"request",
+			"'')\n",
+			"',",
+			"LoginActivity",
+			"TwinseeApplicationHTTPProtocolError",
+			"secure connection",
+			"secure connexion",
+			"tool",
+			"_onKeyPressHandle",
+			"templa",
+			"htm",
+			"html",
+			"_onRegistrationHandle",
+			"LoginActivity",
+			"LoginActivity.html",
+			"http",
+			"indent",
+			"xhr",
+			"onBuddyMessage",
+			"_onBuddyMessageSignal",
+			"_usernameCookie",
+			"_onLoginButtonHandle",
+			"loginButton",
+			"LoginActivityLoginButton",
+			"login",
+			"_onLoginButtonClick",
+			"onLoginBu",
+			"onsubmit",
+			"MutationObserver",
+			"mutation",
+			"Adlen",
+			"_usernameTextBox",
+			"TwinseeActivityTextBox",
+			"autocomplete",
+			"onAccountNicknameUpdate",
+			"_xmppSession",
+			"_xmppSession.accountService",
+			"onAccountNicknameUpdate",
+			"setAccountAttributes",
+			"_password",
+			"dojo",
+			"_passwordTextBox",
+			"_confirmNewPasswordTextBox",
+			"_avatarInput",
+			"_confirmNewPasswordTextBox",
+			"EditAccountActivity",
+			"avatar",
+			"_avatarUpload",
+			"generate_move",
+			" (",
+			"_passwordTextBox",
+			"attributes",
+			"_onOkButtonClick",
+			"Adl",
+			"Adle",
+			"avatar",
+			"getVCardAvatar",
+			"Vcard",
+			"onBuddyAvatarUpdate",
+			"_avatar",
+			"updateRosterItem",
+			"updateBudd",
+			"_nicknameTextBox",
+			"_usernameTextBox",
+			"_onOkButtonHandle",
+			"_onOkButtonClick",
+			"_onAvatarButtonClick",
+			"avatar",
+			"login",
+			"Adlen",
+			"['']",
+			"RSA",
+			"Dans le premier",
+			"secret s avec Alice et",
+			"étape d",
+			"n recommence l'étape d",
+			"On recommence l'étape d",
+			"on recommence l'étape d",
+			"bijective de da",
+			"Le RSA en auth",
+			"textbf",
+			"/*Adlen",
+			"_usernameTextBox",
+			"_initState",
+			"_onKeyPress",
+			"_onLoginButtonClick",
+			"_onKeyPress",
+			"_onLoginButtonClick",
+			"_onKeyPress",
+			"_onLoginButtonClick",
+			"_onLoginButtonHandle",
+			"_onLoginButtonClick",
+			"domcons",
+			"src",
+			"getBuddyAvatar",
+			"getAvatar",
+			"RosterActivity",
+			"roster",
+			"_onBuddyClick",
+			"buddyItem",
+			"_onBuddyClick",
+			"_onBuddyCli",
+			"_onBuddy",
+			"notific",
+			"_onAccountNicknameUpdateSignal",
+			"on",
+			"_onAdd",
+			"this",
+			"this.",
+			"init",
+			"rosterActivity.init",
+			"init",
+			"twinlifeService",
+			"onLogin",
+			"Adlen",
+			"adlen",
+			"username",
+			"nickna",
+			"buddy",
+			"nick",
+			"nickname",
+			"testNotification",
+			"onRemoveButtonClick",
+			"TwinseeApplicationAboutMenuItemLabel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"track_deezer_id",
+			"ChromeExtensionActivity",
+			"stamp",
+			"timestamp",
+			"",
+			"Les-",
+			"Le-",
+			"true",
+			"false",
+			"\"True\"},",
+			"\"False\"},",
+			"\"",
+			"\"Apprentissage\":",
+			"\"Url\":",
+			"\"Academie\":",
+			"\"Departement\":",
+			"\"Ville\":",
+			"\"Specialite\":",
+			"\"SousCategorieFormation\":",
+			"\"CategorieFormation\":",
+			"\"SiteInternet\":",
+			"\"Type\":",
+			"\"Etablissement\":",
+			"Vertex",
+			"vectType",
+			"allReviewLength",
+			"#print",
+			"",
+			"0",
+			"0\n0",
+			"listOfAllReviews",
+			"listOfId2",
+			"listOfId1",
+			"sock",
+			"a",
+			"e",
+			"",
+			"clauseFausse",
+			"*"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views.py",
+					"settings":
+					{
+						"buffer_size": 5157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4274,
+								4274
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"rulers":
+							[
+								34,
+								33.6666666667,
+								33.75,
+								33.8333333333,
+								33.9166666667,
+								34.0,
+								34.0833333333,
+								34.1666666667,
+								34.25
+							],
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1276.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "deezer_crawl.py",
+					"settings":
+					{
+						"buffer_size": 3700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3469,
+								3469
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": "'''",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"rulers":
+							[
+								0,
+								-0.333333333333,
+								-0.25,
+								-0.166666666667,
+								-0.0833333333333,
+								-2.77555756156e-017,
+								0.0833333333333,
+								0.166666666667,
+								0.25
+							],
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 800.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "utility.py",
+					"settings":
+					{
+						"buffer_size": 4437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4437,
+								4437
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"rulers":
+							[
+								0,
+								-0.333333333333,
+								-0.25,
+								-0.166666666667,
+								-0.0833333333333,
+								-2.77555756156e-017,
+								0.0833333333333,
+								0.166666666667,
+								0.25
+							],
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 930.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/templates/index.html",
+					"settings":
+					{
+						"buffer_size": 2560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1835,
+								1835
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"rulers":
+							[
+								24,
+								23.6666666667,
+								23.75,
+								23.8333333333,
+								23.9166666667,
+								24.0,
+								24.0833333333,
+								24.1666666667,
+								24.25
+							],
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 24.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"viewsam",
+				"app/views_sample.py"
+			],
+			[
+				"sample/base",
+				"app/templates/samples/base.html"
+			],
+			[
+				"sample/in",
+				"app/templates/samples/index.html"
+			],
+			[
+				"vie",
+				"app/views_sample.py"
+			],
+			[
+				"__i",
+				"app/__init__.py"
+			],
+			[
+				"views",
+				"app/views.py"
+			],
+			[
+				"twinseeao",
+				"twinsee/desktop/TwinseeApplication.html"
+			],
+			[
+				"twinseeapp",
+				"twinsee/TwinseeApplication.js"
+			],
+			[
+				"login",
+				"twinsee/desktop/templates/LoginActivity.html"
+			],
+			[
+				"chro",
+				"twinsee/desktop/templates/ChromeExtension.html"
+			],
+			[
+				"twincss",
+				"twinsee/src/twinsee/resources/twinsee.css"
+			],
+			[
+				"rosteract",
+				"twinsee/src/twinsee/desktop/templates/RosterActivity.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true
+}
